@@ -1,0 +1,88 @@
+/* Style de base */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+#projects {
+    background-color: #f4f4f4;
+}
+
+.project-card {
+    background-color: white;
+    border: 1px solid #ccc;
+    margin: 1rem;
+    padding: 1rem;
+    display: inline-block;
+    width: 30%;
+}
+
+#contactForm {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#contactForm label {
+    margin-top: 1rem;
+    text-align: left;
+}
+
+#contactForm input, #contactForm textarea {
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+#contactForm button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 0.75rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+#contactForm button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
