@@ -80,14 +80,14 @@ p{
 }
 
 .dark{
-    background-color: #000;
+    background-color: #040c22;
     color: #fff;
 }
 .text_center{
     text-align: center;
 }
 .skill{
-    background: #333;
+    background: #08203b;
     border-radius: 15px;
     padding: 20px;
     box-sizing: border-box;
@@ -195,7 +195,7 @@ p{
     width: 100%;
     background-color: #FFF;
     z-index: 999;
-    padding-block: 10px;
+    padding-block: 5px;
     box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.1);
 }
 
